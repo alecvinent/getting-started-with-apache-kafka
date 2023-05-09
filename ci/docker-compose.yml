@@ -27,7 +27,7 @@ services:
       KAFKA_TRANSACTION_STATE_LOG_REPLICATION_FACTOR: 1
   python:
     build:
-      context: .
+      context: ..
       dockerfile: Dockerfile
     ports:
       - 8000:8000
